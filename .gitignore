@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+client/dist/
+
+# Environment
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+coverage/
